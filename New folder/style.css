@@ -1,0 +1,558 @@
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    overflow: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px 0;
+    list-style: none;
+}
+.image {
+	width: 50%;
+	text-align: center;
+	float: right;
+  }*/
+  body {
+	font-family: sans-serif;
+  }
+  .header a.logo {
+	font-size: 25px;
+	font-weight: bold;
+  }
+  .header-right {
+    float: right;
+	
+  }
+  .first {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+  }
+  .second {
+	width: 50%;
+  }
+  .image {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	text-align: center;
+  }
+  .button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+  /*part2*/
+  .container {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.image-content {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-content {
+    flex: 1;
+    padding: 30px;
+}
+
+.text-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.tech-stack img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #333;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.proficiency-list {
+  width: 40%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #a0c4ff;
+}
+
+.image-contant {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-contant img {
+  max-width: 50%;
+  max-height: 50%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  margin-bottom: 10px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-details .icon {
+  display: flex;
+  align-items: center;
+}
+
+.card-details .icon i {
+  margin-right: 5px;
+}
+
+.card-details .size {
+  font-weight: bold;
+}
+h1 {
+  font-size: 48px;
+  color: #333;
+  margin: 40px 0 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.perfect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 40px;
+}
+
+.best {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best img {
+  width: 200px;
+  height: auto;
+}
+
+.best p {
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.patte {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.patte img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.patte h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.patte p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.patte a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.patte a:hover {
+  background-color: #0056b3;
+}
+.fifth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.team {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+}
+
+.team-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.team-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #663399;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+.sixth {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.talk {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  padding: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.talk h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.talk p {
+  font-size: 1rem;
+  margin-bottom: 200px;
+}
+
+.reacht {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.reacht {
+  background-color: #999;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.reacht:hover {
+  background-color: white;
+}
+.user-name {
+  font-size: 40px;
+}
+.tweet {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet-header .user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-header .user-info span {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tweet-header .user-info .username {
+  color: #666;
+  font-size: 14px;
+}
+
+.tweet-content {
+  margin-top: 10px;
+}
+
+.tweet-content p {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.tweet-content img {
+  width: 5%;
+  height: 5%;
+}
+
+.tweet-content .link {
+  color: #007bff;
+}
+
+.tweet-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-top: 10px;
+}
+
+.tweet-footer i {
+  font-size: 18px;
+}
+
+.seven {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 30px 0;
+}
+
+h6 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.podcast-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 700px;
+}
+
+.podcast-card h7 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.podcast-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.podcast-card .play-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.podcast-card .play-button:hover {
+  background-color: #0056b3;
+}
+
+.podcast-card .audio-progress {
+  width: 100%;
+  height: 5px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.podcast-card .audio-progress .progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%; /* Adjust based on progress */
+}
+
+.podcast-card .controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.podcast-card .controls .icon {
+  font-size: 20px;
+  color: #555;
+  cursor: pointer;
+}
+
+.podcast-card .controls .icon:hover {
+  color: #333;
+}
+.good {
+  display: flex;
+  justify-content: space-between;
+}
+.last {
+  flex: 1;
+}
+.right {
+  flex: 1;
+  text-align: center;
+  margin-top: 15px;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.social-links a {
+  margin: 0 5px;
+}
+.social-links a img {
+  width: 25px;
+}

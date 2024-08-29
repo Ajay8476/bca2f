@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+   margin: 0%;
+   padding: 0%;
+}
+      nav {
+        text-align: left;
+        text-size-adjust: 30%;
+      }
+
+nav {
+    background-color: #333333ad;
+    
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center ;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-image: url("https://img.lovepik.com/photo/50057/1958.jpg_wh860.jpg");
+    text-align: center;
+    padding: 70px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 2em;
+}
+
+header button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: #de6262;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #ff6f61;
+    color: white;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #de6262(255, 255, 255, 0.8);
+    background-color: #de6262; 
+}
+
+#about {
+    background-color: #f4f4f4 ;
+    div {  
+        width: auto;  
+        text-align: left;  
+        padding: 50px;  
+        } 
+        .button1 {border-radius: 2px;}
+        .button {
+        background-color: #de6262;
+        }
+        p{
+            text-size-adjust: 0%;
+        } 
+        img { 
+        float: right;
+        max-width: 30%;   
+        height: auto;   
+        
+       
+        }  
+        
+    }
+#services {
+    div {
+        width: auto;  
+        text-align: center;  
+        padding: 50px;
+    background-color: #f4f4f4;
+    }
+    display: flex;
+    justify-content: space-around;
+    justify-content: center; 
+    align-items: Right; 
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.8);
+    img {
+        max-width: 70%;
+        height: auto;
+        
+        }      
+    }
+
+
+
+
+
